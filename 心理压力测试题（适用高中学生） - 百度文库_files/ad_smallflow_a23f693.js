@@ -1,0 +1,1 @@
+define("wkview:widget/ad_smallflow/ad_smallflow.js",function(e,a,t){var l=e("wkcommon:widget/lib/tangram/base/base.js");t.exports={fcTestId:function(){var e,a=l.url.getQueryValue(location.href,"fcTestId"),t=Math.random();return t>0&&.1>=t&&!a||82301===+a?e=82301:t>.1&&.2>=t&&!a||82302===+a?e=82302:t>.2&&.3>=t&&!a||90501===+a?e=90501:(t>.3&&.4>=t&&!a||90502===+a)&&(e=90502),e}}});

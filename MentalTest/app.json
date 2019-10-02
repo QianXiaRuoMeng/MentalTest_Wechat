@@ -1,0 +1,14 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/test/test",
+		"pages/result/result"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "心理压力测试",
+		"navigationBarTextStyle": "black"
+	},
+	"sitemapLocation": "sitemap.json"
+}

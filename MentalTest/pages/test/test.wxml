@@ -1,0 +1,19 @@
+<!--pages/test/test.wxml-->
+<view class="container">
+
+	<!-- <text class="Num">{{text1}}</text>
+	<text class="Text"></text> -->
+	<text class='miao'>{{text1}}</text>
+	<text class='wang'>{{text2}}</text>
+	<view class='xiaolige'></view>
+
+	<button class="Button" type='default' bindtap='select1' >不适用</button>
+	<button class="Button" type='default' bindtap='select2' >偶尔适用</button>
+	<button class="Button" type='default' bindtap='select3' >经常适用</button>
+	<button class="Button" type='default' bindtap='select4' >最适用</button>
+
+  <view calss='backView'>
+    <image class='blackImage' src='../test/background.jpg'></image>
+  </view>
+
+</view>

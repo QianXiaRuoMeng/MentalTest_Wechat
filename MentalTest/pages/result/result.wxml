@@ -1,0 +1,11 @@
+<!--pages/result/result.wxml-->
+<view class="container">
+
+	<text class='Type'>{{type}}</text>
+	<text class='Suggestion'>{{suggestion}}</text>
+
+  <view calss='backView'>
+    <image class='blackImage' src='../result/background.jpg'></image>
+  </view>
+
+</view>

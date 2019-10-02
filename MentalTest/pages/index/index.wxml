@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="projectName">
+    <text>{{name}}</text>
+  </view>
+
+  <button class="startButton" type='primary' bindtap='startTest' >开始测试</button>
+
+  <text class='beiwei'>(本测试仅供参考)</text>
+
+  <view calss='backView'>
+    <image class='blackImage' src='../index/background.jpg'></image>
+  </view>
+
+</view>
