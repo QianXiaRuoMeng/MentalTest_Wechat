@@ -7,8 +7,10 @@
 
 .wang{
 	position: static;
+	height: 80rpx;
 	margin-top: 75rpx;
 	font-size: 37rpx;
+	width: 85%;
 }
 
 .xiaolige{
@@ -28,8 +30,9 @@
 }
 
 .Button{
-	margin-top: 50rpx;
-	width: 400rpx;
+	margin-top: 75rpx;
+	width: 200px;
+	height: 75px;
 }
 
 .backView{
@@ -55,4 +58,20 @@ height:100%;
 width:100%;
 overflow: hidden;
 background-size:cover;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+
+.yhj137{
+	position: relative;
+	width:200px;
+	height:75px;
+	left: -15px;
+	top:-1px;
 }

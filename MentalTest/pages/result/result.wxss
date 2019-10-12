@@ -1,15 +1,25 @@
 /* pages/result/result.wxss */
-.Type {
-	position: static;
-  margin-top: 200rpx;
-  font-size:42rpx;
-}
-
-.Suggestion{
+.Tittle{
 	position: static;
 	width: 85%;
 	margin-top: 100rpx;
 	font-size: 36rpx;
+}
+
+.Text{
+	position: static;
+	width: 85%;
+	margin-top: 25rpx;
+	font-size: 32rpx;
+}
+
+.Mark{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	width: 85%;
+	margin-top: 75rpx;
+	font-size: 40rpx;
 }
 
 .backView{
@@ -35,4 +45,12 @@ height:100%;
 width:100%;
 overflow: hidden;
 background-size:cover;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
 }

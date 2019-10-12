@@ -1,11 +1,28 @@
 <!--pages/result/result.wxml-->
+
+<image class='background' src="../bg.jpg" mode="aspectFill"></image>
+
 <view class="container">
 
-	<text class='Type'>{{type}}</text>
-	<text class='Suggestion'>{{suggestion}}</text>
+	<text class='Mark'>{{Mark}}</text>
+
+	<text class='Tittle'>{{miao1}}</text>
+	<text class='Text'>{{wang1}}</text>
+
+	<text class='Tittle'>{{miao2}}</text>
+	<text class='Text'>{{wang2}}</text>
+
+	<text class='Tittle'>{{miao3}}</text>
+	<text class='Text'>{{wang3}}</text>
+
+	<text class='Tittle'>{{miao4}}</text>
+	<text class='Text'>{{wang4}}</text>
+
+	<text class='Tittle'>{{miao5}}</text>
+	<text class='Text'>{{wang5}}</text>
 
   <view calss='backView'>
-    <image class='blackImage' src='../result/background.jpg'></image>
+    <image class='blackImage' src='../result/background.jpg' ></image>
   </view>
 
 </view>
