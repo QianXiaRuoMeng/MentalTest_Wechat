@@ -1,0 +1,40 @@
+<!--pages/result/result.wxml-->
+
+<image class='background' src="../bg.jpg" mode="aspectFill"></image>
+
+<view class="container">
+
+	<text class='Mark'>{{Mark}}</text>
+
+  <view wx:if="{{type==1}}">
+    <image class='jupiter' src='../result/11.jpg'></image>
+  </view>
+
+  <view wx:if="{{type==2}}">
+    <image class='jupiter' src='../result/22.jpg'></image>
+  </view>
+
+  <view wx:if="{{type==3}}">
+    <image class='jupiter' src='../result/33.jpg'></image>
+  </view>
+  
+	<text class='Tittle'>{{miao1}}</text>
+	<text class='Text'>{{wang1}}</text>
+
+	<text class='Tittle'>{{miao2}}</text>
+	<text class='Text'>{{wang2}}</text>
+
+	<text class='Tittle'>{{miao3}}</text>
+	<text class='Text'>{{wang3}}</text>
+
+	<text class='Tittle'>{{miao4}}</text>
+	<text class='Text'>{{wang4}}</text>
+
+	<text class='Tittle'>{{miao5}}</text>
+	<text class='Text'>{{wang5}}</text>
+
+  <view calss='backView'>
+    <image class='blackImage' src='../result/background.jpg' ></image>
+  </view>
+
+</view>

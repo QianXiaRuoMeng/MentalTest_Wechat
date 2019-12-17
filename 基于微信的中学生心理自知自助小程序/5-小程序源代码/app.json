@@ -1,0 +1,15 @@
+{
+	"pages": [
+    "pages/home/home",
+		"pages/index/index",
+		"pages/test/test",
+		"pages/result/result"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "中学生考试焦虑测试(TAS)",
+		"navigationBarTextStyle": "black"
+	},
+	"sitemapLocation": "sitemap.json"
+}

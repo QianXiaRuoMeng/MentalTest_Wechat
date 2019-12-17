@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+<image class='background' src="../bg.jpg" mode="aspectFill"></image>
+
+<view class="container">
+
+<image class='cjy' src='../home/logo.png'></image>
+
+<text class='lzy'>欢迎使用</text>
+<text class='lzy'>中学生心理自知自助小程序</text>
+
+<button plain='true' class='lwr' bindtap="miao" >进入</button>
+
+</view>

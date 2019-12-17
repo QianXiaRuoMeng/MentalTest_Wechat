@@ -1,0 +1,24 @@
+<!--index.wxml-->
+
+<image class='background' src="../bg.jpg" mode="aspectFill"></image>
+
+<view class="container">
+
+  <view class="projectName">
+    <text>{{name}}</text>
+  </view>
+
+   <text class='beiwei'>{{introduction}}</text>
+
+  <!-- <button class="startButton" type='primary' bindtap='startTest' >开始测试</button> -->
+  <button class="startButton" plain='true' bindtap='startTest' > <image class='yhj137' src='../index/button.jpg'></image> </button>
+
+ 
+
+  <button bindtap='jump'>jump!</button>
+
+  <!-- <view calss='backView'>
+    <image class='blackImage' src='../index/background.jpg'></image>
+  </view> -->
+
+</view>
